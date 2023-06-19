@@ -55,3 +55,116 @@ input:focus {
   height: 1.25rem;
   margin: auto 5px;
 }
+
+.themes {
+  display: flex;
+  border: 0;
+  border-bottom: solid black 4px;
+}
+
+.themes p {
+  border: solid black 2px;
+  width: 12%;
+  margin: 10px 0.5%;
+  text-align: center;
+}
+
+#Asia {
+  border-left: 3%;
+  color: #000080;
+  border: solid #000080 1px;
+}
+
+#Latin-America {
+  color: #ca0505;
+  border: solid #ca0505 1px;
+}
+#Europe {
+  color: #017a1d;
+  border: solid #017a1d 1px;
+}
+#Early-American-and-the-US {
+  color: #6a027e;
+  border: solid #6a027e 1px;
+}
+#Middle-East-and-Africa {
+  color: #b09b00;
+  border: solid #b09b00 1px;
+}
+#Global-and-Transnational {
+  color: #814802;
+  border: solid #814802 1px;
+}
+#Science-Medicine-Technology {
+  color: #7aae00;
+  border: solid #7aae00 1px;
+}
+
+#Comparative-History-Special-Topics {
+  border-right: 3%;
+  color: #a20348;
+  border: solid #a20348 1px;
+}
+
+.divider {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left {
+  width: 50%;
+  border-right: solid black 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.left div {
+  width: 100%;
+  width: 250px;
+  height: 250px;
+  border: solid black 2px;
+}
+
+.left img {
+  height: 100%;
+  max-width: 250px;
+  max-height: 250px;
+  object-fit: cover;
+  filter: brightness(60%); 
+}
+
+
+
+.bond {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bond p {
+  width: 75%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.right {
+  width: 49%;
+  border-left: solid black 2px;
+}
+
+.right h1 {
+  margin: 3%;
+  font-size: 40px;
+}
+
+.right p {
+  margin-left: 3%;
+  font-size: 20px;
+}
