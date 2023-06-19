@@ -1,17 +1,57 @@
+.first-layer {
+  display: flex;
+}
+
+#logo {
+  height: 3rem;
+}
+
+.first-layer div {
+  margin-top: 0.3rem;
+  border-radius: 0.5rem;
+  height: 2rem;
+  padding: 0.2rem;
+  margin-left: 0.8rem;
+  padding-left: 0.5rem
+}
 
 #search {
-  border: 0;
+  width: 100%;
+  background-color: #e9e9e9;
 }
 
 #magnifier {
-  height: 50px;
+  margin-bottom: -3px;
+  width: 1.1rem;
 }
 
-label {
-  width=
-  background-color: red;
+#search-text {
+  height: 1.9rem;
+  width: calc(100% - 2rem);
+  background-color: #e9e9e9;
+  color: #646464;
+  font-size: 1.1rem;
+  border: none;
 }
 
-input {
-  font-size: 100px;
+input:focus {
+  outline: none;
+}
+
+#favorites-recommendations {
+  background-color: #9B0E27;
+  width: 24rem;
+  display: flex;
+}
+
+#star {
+  height: 1.25rem;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+#favorites-recommendations-text {
+  color: white;
+  height: 1.25rem;
+  margin: auto 5px;
 }
